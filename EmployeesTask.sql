@@ -1,0 +1,10 @@
+CREATE DATABASE EmployeesTask
+
+USE EmployeesTask
+
+CREATE TABLE Employees
+(
+	Id INT PRIMARY KEY IDENTITY,
+	FullName NVARCHAR(20)
+)
+
